@@ -1,6 +1,5 @@
 const stringInvert = (str = "gnirts nu odasergni ah es oN") => {
-    if (str != 'string' || str == undefined) return "Error";
-
+    if (typeof str != 'string' || str === undefined)return "Error";
     let reverseStr = "";
     for (let index = str.length-1; index >= 0; index--) {
         reverseStr+= str[index];
@@ -8,4 +7,5 @@ const stringInvert = (str = "gnirts nu odasergni ah es oN") => {
     return reverseStr;
 }
 
-console.log(stringInvert());
+console.log("..:: Ejercicio 5 ::..");
+console.log(stringInvert("ovatsuG"));
